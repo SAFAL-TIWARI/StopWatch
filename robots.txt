@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://safal-tiwari.github.io/SmartWatch/sitemap.xml
