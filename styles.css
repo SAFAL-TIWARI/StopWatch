@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    /* background: linear-gradient(135deg, #4326c1, #928dab); */
+    color: rgb(228, 8, 8);
+}
+
+.smartwatch {
+    width: 500px;
+    height: 500px;
+    background-color: #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px -5px 100px rgba(215, 103, 103, 0.407);
+    border: 10px solid #888;
+}
+
+.screen {
+    width: 500px;
+    height: 500px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stopwatch {
+    color: rgb(255, 255, 255);
+    font-size: 350%;
+    text-align: center;
+}
+
+#display {
+    margin-bottom: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+button {
+    background-color: #b34040b6;
+    color: white;
+    border: rgb(from color r g b);
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 40%;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: ridge;
+}
+
+.laps {
+    margin-top: 10px;
+    font-size: 50%;
+    text-align: center;
+    width: 100%;
+    max-height: 100px;
+    overflow-y: auto;
+}
+
+.lap {
+    border-bottom: 1px solid #f3bcbc;
+    padding: 5px 0;
+}
