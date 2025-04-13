@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     display: flex;
     justify-content: center;
@@ -6,10 +7,10 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-image: url("https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    /* background: linear-gradient(135deg, #4326c1, #928dab); */
     color: rgb(228, 8, 8);
 }
 
+/* Stopwatch Styling */
 .smartwatch {
     width: 500px;
     height: 500px;
@@ -77,10 +78,18 @@ button:focus {
     padding: 5px 0;
 }
 
+/* LinkedIn Badge Styling */
 #linkedin-badge {
     position: absolute;
     top: 20px;
     right: 20px;
     z-index: 1000;
+    width: auto;
+    height: auto;
 }
 
+/* Optional: If you want to adjust the size or appearance of the badge */
+.LI-profile-badge {
+    width: 200px;  /* Adjust width */
+    height: auto;  /* Maintain aspect ratio */
+}
