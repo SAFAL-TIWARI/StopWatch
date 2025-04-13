@@ -1,50 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stopwatch</title>
-    <meta name="description" content="This is my website of Stopwatch.">
-    <meta name="robots" content="index, follow">
-    <meta name="google-site-verification" content="861_2RU-qy6qW2HU0361cW7y9Z_fywfk-7zoU9mqKe0" />
-
-    <!-- LinkedIn badge script -->
-    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
 </head>
 <body>
-    <div class="stopwatch">
-        <div class="screen">
-            <div class="stopwatch">
-                <!-- this container contains timer -->
-                <div id="display">00:00:00:00</div>
-                <div class="buttons">
-                    <button id="startStopBtn">Start</button>
-                    <button id="lapBtn">Lap</button>
-                    <button id="resetBtn">Reset</button>
-                </div>
-                <div class="laps" id="laps"></div>
-            </div>
-        </div>
+  <div id="linkedin-badge">
+    <div class="LI-profile-badge"  
+         data-version="v1" 
+         data-size="medium" 
+         data-locale="en_US" 
+         data-type="horizontal" 
+         data-theme="dark" 
+         data-vanity="safal-tiwari-123abc">
     </div>
+  </div>
 
-    <!-- LinkedIn Badge Section -->
-    <div class="linkedin-badge" style="margin-top: 30px;">
-        <div class="badge-base LI-profile-badge"
-             data-locale="en_US"
-             data-size="medium"
-             data-theme="dark"
-             data-type="VERTICAL"
-             data-vanity="safal-tiwari-b756a935b"
-             data-version="v1">
-            <a class="badge-base__link LI-simple-link"
-               href="https://www.linkedin.com/in/safal-tiwari?trk=profile-badge">
-               Safal Tiwari
-            </a>
+  <!-- Stopwatch HTML -->
+  <div class="stopwatch">
+    <div class="screen">
+      <div class="stopwatch">
+        <div id="display">00:00:00:00</div>
+        <div class="buttons">
+          <button id="startStopBtn">Start</button>
+          <button id="lapBtn">Lap</button>
+          <button id="resetBtn">Reset</button>
         </div>
+        <div class="laps" id="laps"></div>
+      </div>
     </div>
+  </div>
 
-    <script src="scripts.js"></script>
+  <script src="scripts.js"></script>
 </body>
 </html>
