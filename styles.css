@@ -76,3 +76,11 @@ button:focus {
     border-bottom: 1px solid #f3bcbc;
     padding: 5px 0;
 }
+
+#linkedin-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
